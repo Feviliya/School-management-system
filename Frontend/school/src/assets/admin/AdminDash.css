@@ -1,0 +1,29 @@
+.school-logo{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+#admin-nav{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    position: fixed;
+    padding: 10px 2px 15px 40px;
+    width: 100%;
+    gap: 68%;
+    font-size: 20px;
+    z-index: 1;
+    font-family: 'Poppins';
+    color: rgb(62, 60, 60);
+    background-color: rgb(169, 221, 221);
+}
+#admin-menu{
+    position: fixed;
+    margin-top: 7%;
+    width: 25%;
+    height: 90vh;
+    background-color: rgb(211, 236, 240);
+}
+.admin-menu-item{
+    padding: 5%;
+}
